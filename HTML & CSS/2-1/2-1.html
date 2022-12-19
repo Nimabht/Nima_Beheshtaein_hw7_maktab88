@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/87eaffeb77.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./utils/Tailwind/tailwind-all.css" />
+    <link rel="stylesheet" href="2-1.css" />
+    <title>2</title>
+  </head>
+
+  <body>
+    <!-- s navbar -->
+    <div class="navBar">
+      <div class="p1">
+        <div class="logo primary-btn">
+          <i class="bi bi-house-door-fill"></i>
+          Logo
+        </div>
+        <div class="items">
+          <a href="#team">Team</a>
+          <a href="#work">Work</a>
+          <a href="#price">Price</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="dropdown-wrapper">
+          <button class="dropDown">Drop Down <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+      <a id="nav-menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div class="search">
+        <i class="bi bi-search"></i>
+      </div>
+    </div>
+    <div id="nav-list"  style="display: none;">
+      <a href="#team">Team</a>
+      <a href="#work">Work</a>
+      <a href="#price">Price</a>
+      <a href="#contact">Contact</a>
+      <a >Search</a>
+    </div>
+    <div class="main-img">
+      <img src="./utils/Images/sailboat.jpg" alt="sailboat" />
+      <button class="learn-btn" id="modalopen">LEARN W3.CSS</button>
+    </div>
+    <!-- f navbar -->
+    <!-- s modal -->
+    <div class="modal" id="modal">
+      <div class="modal-box w3-animate-top"">
+        <div class="modal-header">
+          <div class="des">
+            <p>Oh snap! We just showed you a modal..</p>
+            <p>Because we can 😝</p>
+          </div>
+          <button id="modalclose" class="primary-btn">
+            <i class="bi bi-x"></i>
+          </button>
+        </div>
+        <div class="moadal-main">
+          <p>Cool huh? Ok, enough teasing around..</p>
+          <p>Go to our <a href="">W3.CSS Tutorial</a> to learn more!</p>
+        </div>
+        <div class="modal-footer">Modal footer</div>
+      </div>
+    </div>
+    <!-- f modal -->
+    <!-- s team -->
+    <div class="team-box" id="team">
+      <h2>OUR TEAM</h2>
+      <p>Meet the team - our office Gods:</p>
+      <div class="team-cards">
+        <div class="col-3 col-sm-12">
+          <img src="./utils/Images/me.png" alt="me" />
+          <h2>Nima bht</h2>
+          <p>Founder</p>
+        </div>
+        <div class="col-3 col-sm-12">
+          <img src="./utils/Images/me.png" alt="me" />
+          <h2>Nima bht</h2>
+          <p>Founder</p>
+        </div>
+        <div class="col-3 col-sm-12">
+          <img src="./utils/Images/me.png" alt="me" />
+          <h2>Nima bht</h2>
+          <p>Founder</p>
+        </div>
+        <div class="col-3 col-sm-12">
+          <img src="./utils/Images/me.png" alt="me" />
+          <h2>Nima bht</h2>
+          <p>Founder</p>
+        </div>
+      </div>
+    </div>
+    <!-- f team -->
+    <!-- s our work-->
+    <div class="our-work mb-24" id="work">
+      <div class="col-3 col-sm-12">
+        <h2>Our work</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="col-3 col-sm-12">
+        <div class="customer-card">
+          <img src="./utils/Images/snow.jpg" alt="snow" />
+          <div class="cutomer-desc">
+            <h3>Cusomer 1</h3>
+            <h4>Trade</h4>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-sm-12">
+        <div class="customer-card">
+          <img src="./utils/Images/lights.jpg" alt="lights" />
+          <div class="cutomer-desc">
+            <h3>Cusomer 1</h3>
+            <h4>Trade</h4>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 col-sm-12">
+        <div class="customer-card">
+          <img src="./utils/Images/mountains.jpg" alt="mountains" />
+          <div class="cutomer-desc">
+            <h3>Cusomer 1</h3>
+            <h4>Trade</h4>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+            <p>🥸🥸🥸🥸🥸🥸🥸</p>
+          </div>
+        </div>
+      </div>
+      <button id="sidebar-open" class="primary-btn">
+        <i class="bi bi-plus-lg"></i>
+      </button>
+    </div>
+    <!-- f our work-->
+    <!-- s side bar-->
+    <div class="side-bar w3-animate-left" id="side-bar">
+      <a id="sidebar-close">
+        Close
+        <i class="bi bi-x-lg"></i>
+      </a>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+    </div>
+    <!-- f side bar-->
+    <!-- s price-->
+    <div class="price mb-24" id="price">
+      <h2 class="font-medium">PRICING</h2>
+      <p>Choose a pricing plan that fits your needs.</p>
+      <div class="cards">
+        <div class="card col-4 col-sm-12">
+          <ul>
+            <li class="py-8 bg-black text-white text-2xl">Basic</li>
+            <li class="py-4"><b>10GB</b> Storage</li>
+            <li class="py-4"><b>10</b> Emails</li>
+            <li class="py-4"><b>10</b> Domains</li>
+            <li class="py-4"><b>Endless</b> Support</li>
+            <li class="py-6">
+              <h2>
+                <i class="bi bi-currency-dollar"></i>
+                10
+              </h2>
+              <span class="text-slate-400">Per month</span>
+            </li>
+            <li class="py-6 bg-zinc-500">
+              <button class="primary-btn">
+                <i class="bi bi-check"></i>
+                Sign Up
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="card col-4 col-sm-12">
+          <ul>
+            <li class="py-8 bg-zin text-white text-2xl"><p>Pro</p></li>
+            <li class="py-4"><b>25GB</b> Storage</li>
+            <li class="py-4"><b>25</b> Emails</li>
+            <li class="py-4"><b>25</b> Domains</li>
+            <li class="py-4"><b>Endless</b> Support</li>
+            <li class="py-6">
+              <h2>
+                <i class="bi bi-currency-dollar"></i>
+                25
+              </h2>
+              <span class="text-slate-400">Per month</span>
+            </li>
+            <li class="py-6 bg-zinc-500">
+              <button class="primary-btn">
+                <i class="bi bi-check"></i>
+                Sign Up
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="card col-4 col-sm-12">
+          <ul>
+            <li class="py-8 bg-black text-white text-2xl">Premium</li>
+            <li class="py-4"><b>50GB</b> Storage</li>
+            <li class="py-4"><b>50</b> Emails</li>
+            <li class="py-4"><b>50</b> Domains</li>
+            <li class="py-4"><b>Endless</b> Support</li>
+            <li class="py-6">
+              <h2>
+                <i class="bi bi-currency-dollar"></i>
+                50
+              </h2>
+              <span class="text-slate-400">Per month</span>
+            </li>
+            <li class="py-6 bg-zinc-500">
+              <button class="primary-btn">
+                <i class="bi bi-check"></i>
+                Sign Up
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- f price-->
+    <!-- s contact-->
+    <div class="contact bg-zinc-500" id="contact">
+      <div class="info col-5 col-sm-12">
+        <div>Contact us</div>
+        <h2 class="font-medium">Address</h2>
+        <p>Swing by for a cup of coffee, or whatever.</p>
+        <p><i class="bi bi-geo-alt-fill"></i>Shiraz, IRAN</p>
+        <p><i class="bi bi-telephone-fill"></i>+98 1234567890</p>
+        <p><i class="bi bi-envelope"></i>nima@nima.com</p>
+      </div>
+      <form class="form col-7 col-sm-12">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <input type="text" name="message" required />
+        </div>
+        <input type="checkbox" checked />
+        <label>I Like it!</label>
+        <button type="submit" class="secondary-btn">Send</button>
+      </form>
+    </div>
+    <!-- f contact-->
+    <!-- f last image-->
+    <img class="last-img" src="./utils/Images/map.jpg" alt="map with roads" />
+    <!-- s last image-->
+    <!-- f follow-->
+    <div class="follow">
+      <h2>Follow Us</h2>
+      <div class="social-media">
+        <a class="primary-btn" href=""
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a class="primary-btn" href=""><i class="fa-brands fa-twitter"></i></a>
+        <a class="primary-btn" href=""
+          ><i class="fa-brands fa-google-plus-g"></i
+        ></a>
+        <a class="primary-btn" href=""
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a class="primary-btn" href=""
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+      <p>
+        Powered by <a href=""><u>Nima</u></a>
+      </p>
+      <div class="goToTop">
+        <span>Go to top</span>
+        <a class="secondary-btn" id="goToTop-btn" href="#"
+          ><i class="fa fa-chevron-circle-up"></i
+        ></a>
+      </div>
+    </div>
+    <!-- s follow-->
+    <script src="./2-1.js"></script>
+  </body>
+</html>
